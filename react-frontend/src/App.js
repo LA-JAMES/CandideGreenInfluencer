@@ -32,7 +32,7 @@ function App() {
         {window.similar_images.length === 0 ? <p>{no_img}</p> : null }
 
         <h2>Featured Image...</h2>
-        <ShowImageTile file={window.proc_img} type='Featured Image (OpenCV): ' features={window.proc_img_features} analysis={window.proc_analysis} tile='featured'/>
+        <ShowImageTile file={window.proc_img} type='Featured Image (OpenCV): ' features={window.proc_img_features} tile='featured'/>
         <ShowImageAnalysis/>
         <br/>
 

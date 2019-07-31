@@ -20,13 +20,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-    <script>window.submission = "{{submission}}"</script>
-    <script>window.submission_categories = {{submission_categories|safe}}</script>
-    <script>window.proc_img = "{{proc_img}}"</script>
-    <script>window.proc_img_features = "{{proc_img_features}}"</script>
-        <script>window.proc_analysis = "{{proc_analysis}}"</script>
-    <script>window.similar_images = {{ similar_images|safe }} </script>
-    <script>window.similar_categories = {{ similar_categories|safe }} </script>
+    <script>
+    window.submission = "{{submission}}"
+    window.submission_categories = {{submission_categories|safe}}
+    window.proc_img = "{{proc_img}}"
+    window.proc_img_features = "{{proc_img_features}}"
+    window.similar_images = {{ similar_images|safe }}
+    window.similar_categories = {{ similar_categories|safe }}
+  </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

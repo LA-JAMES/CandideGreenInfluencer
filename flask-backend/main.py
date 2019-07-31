@@ -251,7 +251,7 @@ def my_index():
                                  submission_categories=json.dumps(submitted_image_categories),
                                  similar_images=json.dumps(chosen_similar_image_names),
                                  similar_categories=json.dumps(chosen_image_categories), proc_img=matched_cv_image,
-                                 proc_img_features=number_of_features_matched, proc_analysis="../feature-match.jpg")
+                                 proc_img_features=number_of_features_matched)
 
 
 app.run(debug=True)
