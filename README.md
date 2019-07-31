@@ -17,7 +17,7 @@ A basic web app to show image recommendations.
 3. npm run build
 
 # Updates to code since Monday 29th July 2019
-- Timsort-based ranking algorithm (using sorted() function) added alongside the original unoptimized bubblsort implementation - you can see & use the original bubblesort implementation by passing a different value into the 'algorithm' parameter of the ranking function.
+- Timsort-based ranking algorithm (using sorted() function) added alongside the original unoptimized bubblesort implementation - you can see & use the original bubblesort implementation by passing a different value into the 'algorithm' parameter of the ranking function.
 - Code now aligns with Python PEP-8 Style Guide.
 - Added Python Docstrings to functions.
 - Category lists no longer display a trailing comma.
