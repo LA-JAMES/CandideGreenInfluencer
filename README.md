@@ -2,9 +2,13 @@
 A basic web app to show image recommendations.
 
 # Build the venv
+You shouldn't need to do this as the venv directory is included with this repo. But just in case...
 virtualenv <env_name>
 source <env_name>/bin/activate
 pip install -r path/to/requirements.txt
+
+To activate the given venv...
+source venv/bin/activate
 
 # Run the Flask app
 Open a terminal window.
